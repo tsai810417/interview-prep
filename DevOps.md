@@ -46,3 +46,6 @@ git diff-tree -no-commit-id -name-only -r {hash}	(only shows the file name)
 How to squash(combine) last N commits into a single commit?
 git reset -soft HEAD~N &&
 git commit
+
+What is Continuous Integration?
+Based on commit you are doing, every commit that you do to the repository has to be immediately integrate changes to other collaborators to the master branch, then the integration server(e.g. Jenkins, bamboo) will built, test and deploy it.
