@@ -10,3 +10,6 @@ CD is every build ran will generate some artifact to be deployed continuously
 
 What’s DevOps?
 Practice brings developers, operations, HR, testing, their operations and their activities together in a collaborative fashion using proper processes and techniques to achieve the fastest and reliable software releases. The GOAL is producing faster releases with high quality.
+
+Hows DevOps different from Agile?
+Agile is a methodlogy and DevOps is a practice. Agile framework define a particular processes and rules and all the development has to fit into that framework. Framework or methodology only deals with development start and development end it doesn’t deal with how to test, how to release the code or how the operations and production support work ongoing. DevOps is the end-to-end SDLC starting from development, testing, operating, and production support, not just a framework, each organization can define its unique DevOps practice to meet their needs.
