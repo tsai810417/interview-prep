@@ -24,3 +24,9 @@ How fast you can fix that issue
 Faster means recovery in time of a new release failure, benefit from continuous monitoring(monitoring the app after your release is complete to proactively checking if the app is providing the required result or not and identifying small issues and gap then fix them as early as possible, instead of waiting until the failure happen which might cause business damage)
 Shortened lead time between fixes
 Faster mean time to recovery in the event of new release failure
+
+Name some top DevOps tools and how these tools work together?
+Source control tool(e.g. Git): distributed version control management tool
+Building and compiling tool(e.g. Maven): provide out of box features for compiling Java code and store the artifact in a proper way
+Integrate tool(e.g. Jenkins): continuous integration tool can be integrated with test tools, web interfaces testing, functional testing
+Deploy tool(e.g. puppet, CHEF, Ansible): provisioning system to have an environment ready up and running and testing servers and then deploy the app. Use docker for the micro service app, providing consistent computing and warming through the SDLC
