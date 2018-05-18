@@ -13,3 +13,14 @@ Practice brings developers, operations, HR, testing, their operations and their 
 
 Hows DevOps different from Agile?
 Agile is a methodlogy and DevOps is a practice. Agile framework define a particular processes and rules and all the development has to fit into that framework. Framework or methodology only deals with development start and development end it doesn’t deal with how to test, how to release the code or how the operations and production support work ongoing. DevOps is the end-to-end SDLC starting from development, testing, operating, and production support, not just a framework, each organization can define its unique DevOps practice to meet their needs.
+
+What is the need for DevOps?
+Increase deployment frequency
+ in order to sustain in the market, company need to do respond to changes as quickly as possible
+New change = new deployment = new release
+Lower failure rate of new releases
+How fast to identify an issue
+How fast you can fix that issue
+Faster means recovery in time of a new release failure, benefit from continuous monitoring(monitoring the app after your release is complete to proactively checking if the app is providing the required result or not and identifying small issues and gap then fix them as early as possible, instead of waiting until the failure happen which might cause business damage)
+Shortened lead time between fixes
+Faster mean time to recovery in the event of new release failure
