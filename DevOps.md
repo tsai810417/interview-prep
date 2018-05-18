@@ -30,3 +30,19 @@ Source control tool(e.g. Git): distributed version control management tool
 Building and compiling tool(e.g. Maven): provide out of box features for compiling Java code and store the artifact in a proper way
 Integrate tool(e.g. Jenkins): continuous integration tool can be integrated with test tools, web interfaces testing, functional testing
 Deploy tool(e.g. puppet, CHEF, Ansible): provisioning system to have an environment ready up and running and testing servers and then deploy the app. Use docker for the micro service app, providing consistent computing and warming through the SDLC
+
+What functions does Git performs in DevOps?
+Store the code in a repository and able to share with team members. Then integrate source code with continuous integration tools, everytime changing the source code, automatically triggered build and tests and then apply configuration changes and deploy it and be monitored. All can be further automated
+
+Explain Git’s distributed architecture.
+In Git, how do you revert a commit that has already been pushed and made public?
+git revert <name_of_commit>
+
+How to find a list of files that has changed in a particular commit?
+git diff-tree -r {hash}	(r means recursively)
+OR
+git diff-tree -no-commit-id -name-only -r {hash}	(only shows the file name)
+
+How to squash(combine) last N commits into a single commit?
+git reset -soft HEAD~N &&
+git commit
