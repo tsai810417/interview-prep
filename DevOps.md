@@ -49,3 +49,26 @@ git commit
 
 What is Continuous Integration?
 Based on commit you are doing, every commit that you do to the repository has to be immediately integrate changes to other collaborators to the master branch, then the integration server(e.g. Jenkins, bamboo) will built, test and deploy it.
+
+Mention some commonly used Jenkins Plugins.
+Jenkins will not work without plugins.
+
+Explain Jenkins distributed architecture and what is the need for this architecture?
+Jenkins is a distributed architecture. There is a master server configured with all the jobs and the requirements, then you can choose particular job to run on different server. These can all be automated by installing Jenkins slave on each nodes and running it.
+Jenkins Master distribute its workload to the Slaves. Jenkins Slaves are required to provide the desire environment and work on the basis of requests received from Jenkins Master.
+The single Jenkins server was not enough to meet requirements like:
+Sometimes need several different environments to test your builds, this cannot be done by a single Jenkins server
+Larger and heavier project get built on a regular basis then a single Jenkins server cannot simply handle the entire load
+
+How will you secure Jenkins?
+Ensure global security is on
+Endure Jenkins is integrated with company’s user directory with appropriate plugin
+Ensure that matrix/project matrix is enabled to fine tune access
+Automate the process of setting rights/privileges in Jenkins with custom version controlled script
+Limit physical access to Jenkins data/folders
+Periodically run security audits on same
+
+Explain how to create a backup and copy files in Jenkins?
+Move a job from one installation of Jenkins to another by simply copying the corresponding job directory
+Make a copy of an existing job by making a clone of a job directory by a different name
+Rename an existing job by renaming a directory
