@@ -8,6 +8,12 @@ Continuous Integration(CI) vs Continuous Deployment(CD):
 CI is filling code as quickly as possible to get feedback whether the build is successful or not. Each commit will trigger a build and the corresponding test.
 CD is every build ran will generate some artifact to be deployed continuously
 
+Software as a service (SaaS):
+Software distribution model in which a third-party provider host app and makes them available to customer over the Internet.
+
+Infrastructure as Code(IaC):
+IaC is automation of IT operations (build, deploy, manage) by provisioning of code, rather than manual process. Provisioning of Dev, Test and Prod environment by writing code in one centralized location.
+
 Docker Image:
 Docker image is the source of Docker container. Docker images are used to create containers. Images are created with the build command, and produce a container when started with run.
 
