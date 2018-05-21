@@ -42,6 +42,15 @@ Shortened lead time between fixes
 Faster mean time to recovery in the event of new release failure
 
 Name some top DevOps tools and how these tools work together?
+Which are the top DevOps tools? Which tools have you worked on?
+The most popular DevOps tools are mentioned below:
+
+Git : Version Control System tool
+Jenkins : Continuous Integration tool
+Selenium : Continuous Testing tool
+Puppet, Chef, Ansible : Configuration Management and Deployment tools
+Nagios : Continuous Monitoring tool
+Docker : Containerization tool
 Source control tool(e.g. Git): distributed version control management tool
 Building and compiling tool(e.g. Maven): provide out of box features for compiling Java code and store the artifact in a proper way
 Integrate tool(e.g. Jenkins): continuous integration tool can be integrated with test tools, web interfaces testing, functional testing
