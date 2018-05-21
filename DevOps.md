@@ -8,6 +8,16 @@ Continuous Integration(CI) vs Continuous Deployment(CD):
 CI is filling code as quickly as possible to get feedback whether the build is successful or not. Each commit will trigger a build and the corresponding test.
 CD is every build ran will generate some artifact to be deployed continuously
 
+Docker Image:
+Docker image is the source of Docker container. Docker images are used to create containers. Images are created with the build command, and produce a container when started with run.
+
+Docker Container:
+Docker containers include the application and all of its dependencies but share the kernel with other containers, running as isolated processes in user space on the host operating system. Docker containers are not tied to any specific infrastructure: they run on any computer, on any infrastructure and in any cloud.
+
+Docker Hub:
+Docker hub is a cloud-base registry service which allows you to link to code repositories, build your images and test them, stores manually pushed images and links to Docker clouf so you can deploy images to your hosts
+
+
 What’s DevOps?
 Practice brings developers, operations, HR, testing, their operations and their activities together in a collaborative fashion using proper processes and techniques to achieve the fastest and reliable software releases. The GOAL is producing faster releases with high quality.
 
