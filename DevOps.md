@@ -97,3 +97,14 @@ Explain how to create a backup and copy files in Jenkins?
 Move a job from one installation of Jenkins to another by simply copying the corresponding job directory
 Make a copy of an existing job by making a clone of a job directory by a different name
 Rename an existing job by renaming a directory
+
+What are the goals of Configuration management processes?
+The purpose of Configuration Management (CM) is to ensure the integrity of a product or system throughout its life-cycle by making the development or deployment process controllable and repeatable, therefore creating a higher quality product or system. The CM process allows orderly management of system information and system changes for purposes such as to:
+
+Revise capability,
+Improve performance,
+Reliability or maintainability,
+Extend life,
+Reduce cost,
+Reduce risk and
+Liability, or correct defects.
